@@ -1,0 +1,49 @@
+/*************** 基础布局 ****************/
+@charset "UTF-8";
+/*改变.header：font-size 就能改变header高度;logo字体大小;*/
+.header{font-size:16px;height: 5em;line-height: 5em; background-color: #E1F1F5;box-shadow: 0 1px 10px rgba(0,0,0,0.1);}
+.header{font-family: x-locale-heading-primary,zillaslab,Palatino,"Palatino Linotype",x-locale-heading-secondary,serif;}
+.header .logo{color: #fff;font-size: 3em;padding:0 1em;}
+.header .topNav li{float: left;}
+.header .topUser li{float: left}
+.header .topUser{padding-right: 1em;}
+.header  li a{text-decoration: none;display: inline-block;color: #387894;}
+.header .topNav li a{padding: 0 1em;}
+.header .topUser li a{padding: 0 .5em;}
+
+.header li a:hover{background-color: #eee;}
+
+
+.center{padding: .5em;}
+
+
+/*改变.footer：font-size 就能改变footer高度*/
+.footer{font-size:14px;  background-color: #E1F1F5;position:fixed;bottom: 0px;left: 0px;width: 100%; }
+.footer p{color:#83d0f2; height:2em;line-height: 2em;text-align: center;}
+
+
+/* css3 兼容ie8样式 */
+.navLeft,.c_right{box-sizing: border-box;}
+.navLeft{width:22.5%;padding-right:10px;}
+.c_right{width: 77.5%;background-color: #ff8000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

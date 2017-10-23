@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,iput{margin:0;padding:0;}
+body{font-size:12px;font-family: Helvetica,Georgia,Arial,sans-serif,宋体;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+/*隐藏ie10 input框 后面的叉号*/
+input::-ms-clear{display:none;}
+input::-ms-reveal{display:none;}
+.overflow{overflow: hidden;*zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{clear:both;*zoom:1;}
+
+.left{float:left;}
+.right{float:right;}
