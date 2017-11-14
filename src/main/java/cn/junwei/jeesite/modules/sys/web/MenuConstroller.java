@@ -14,7 +14,9 @@ public class MenuConstroller extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=utf-8");
-		System.err.println("访问了");
+		
+		
+		request.getRequestDispatcher("/WEB-INF/view/modules/sys/menuTree.jsp").forward(request,response); 
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
